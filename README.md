@@ -1,7 +1,7 @@
 # PythonBackTest
  PythonBacktesting Projects
 
-Backtesting Period : Dec - 2021 To jan 2022
+Backtesting Period : Dec - 2021 To May 2022
 
 Percentage Return Stats :
 
