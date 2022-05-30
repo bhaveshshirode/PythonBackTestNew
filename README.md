@@ -44,3 +44,5 @@ Avg Profit on Win Trade :     23459.64
 
 Avg Loss on Loss Trade :     -9997.36
 
+![Alt text](/MACDInCredProject/images/Strategy_Graph_Dec_2021_may_2022.png?raw=true "Optional Title")
+
