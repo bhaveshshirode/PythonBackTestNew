@@ -6,6 +6,7 @@ Backtesting Period : Dec - 2021 To jan 2022
 Percentage Return Stats :
 
 Total Pct Profit : 588.78 %
+
 Average Pct Trade Profit : 10.33 %
 Maximum Pct Profit : 215.53 %
 Maximum Pct Loss : -92.53 %
