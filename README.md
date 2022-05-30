@@ -44,8 +44,16 @@ Avg Profit on Win Trade :     23459.64
 
 Avg Loss on Loss Trade :     -9997.36
 
+Cumulative Returns
+
 ![Alt text](/MACDInCredProject/images/Strategy_Graph_Dec_2021_may_2022.png?raw=true "Optional Title")
 
+Order Book (MACDInCredProject/strategy/result/BANKNIFTYorderbook.csv)
+![Alt text](/MACDInCredProject/images/OrderBook.PNG?raw=true "Optional Title")
+
+TradeBook (MACDInCredProject/strategy/result/tradebook.csv)
 ![Alt text](/MACDInCredProject/images/Tradebook.PNG?raw=true "Optional Title")
+
+
 
 
