@@ -46,3 +46,6 @@ Avg Loss on Loss Trade :     -9997.36
 
 ![Alt text](/MACDInCredProject/images/Strategy_Graph_Dec_2021_may_2022.png?raw=true "Optional Title")
 
+![Alt text](/MACDInCredProject/images/Tradebook.PNG?raw=true "Optional Title")
+
+
