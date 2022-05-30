@@ -75,4 +75,4 @@ def readtradebook():
     tradebook =  pd.read_csv('result/tradebook.csv')
     analyze_tradebook(tradebook)
 
-readtradebook()
+#readtradebook()
