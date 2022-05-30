@@ -49,12 +49,14 @@ Cumulative Returns
 ![Alt text](/MACDInCredProject/images/Strategy_Graph_Dec_2021_may_2022.png?raw=true "Optional Title")
 
 Order Book 
-[Alt text] (/MACDInCredProject/strategy/result/BANKNIFTYorderbook.csv)
+
+https://github.com/bhaveshshirode/PythonBackTestNew/blob/main/MACDInCredProject/strategy/result/BANKNIFTYorderbook.csv
 
 ![Alt text](/MACDInCredProject/images/OrderBook.PNG?raw=true "Optional Title")
 
 TradeBook 
-[Alt text] (/MACDInCredProject/strategy/result/tradebook.csv)
+
+https://github.com/bhaveshshirode/PythonBackTestNew/blob/main/MACDInCredProject/strategy/result/tradebook.csv
 
 ![Alt text](/MACDInCredProject/images/Tradebook.PNG?raw=true "Optional Title")
 
