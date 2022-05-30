@@ -7,9 +7,9 @@ Percentage Return Stats :
 
 Total Pct Profit : 588.78 %
 
-Average Pct Trade Profit : 10.33 %
-Maximum Pct Profit : 215.53 %
-Maximum Pct Loss : -92.53 %
+Average Pct Trade Profit : 10.33 % 
+Maximum Pct Profit : 215.53 % 
+Maximum Pct Loss : -92.53 % 
 Win Pct Percentage Trades :  0.37 %
 Loss Pct Percentage Trades :  0.63 %
 Avg Pct Profit on Win Trade : 125.67 %
