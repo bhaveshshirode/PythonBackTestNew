@@ -20,6 +20,9 @@ def analyze_tradebook(tradebook):
 
     grouped_df_mean = groups.mean()
     grouped_df_mean['Percent Change'] = grouped_df_mean['Percent Change'] * 100
+    grouped_df_mean['Cum Returns'] = grouped_df_mean['Percent Change'].cumsum()
+    # drawdown
+    grouped_df_mean['DD'] = (grouped_df_mean['Cum Returns'] / grouped_df_mean['Cum Returns'].cummax() -1)
     total_pct_profit = grouped_df_mean['Percent Change'].sum()
     avg_pct_pft = total_pct_profit / total_trades
     max_pct_profit = grouped_df_mean['Percent Change'].max()
@@ -32,6 +35,7 @@ def analyze_tradebook(tradebook):
     avg_pct_loss = loss_pct_trade_profit / loss_trades
     sl_hit = grouped_df_mean[grouped_df_mean['SL hit'] > 0]['SL hit'].count()
     sl_hit_pct = sl_hit / total_trades
+    max_dd = grouped_df_mean['DD'].min()
 
     print('Percentage Return Stats :')
 
@@ -44,7 +48,10 @@ def analyze_tradebook(tradebook):
     print('Avg Pct Profit on Win Trade : %5.2f' % avg_pct_win_profit,'%')
     print('Avg Pct Loss on Loss Trade : %5.2f' % avg_pct_loss,'%')
     print('No of Days SL hit Either Trailing or Combined SL : %5.2f' % sl_hit)
+
     print('SL Hit Percentage : %5.2f' % sl_hit_pct,'%')
+    print('Max Drawdown : %5.2f' % max_dd)
+
 
 
     print('PnL Stats :')
@@ -68,7 +75,9 @@ def analyze_tradebook(tradebook):
     plt.tight_layout()
     plt.show()
 
-    #grouped_df_mean['Percent Change'].cumsum().plot(figsize=(10, 7))
+    plt2 = plt.figure(figsize=(10, 7))
+    grouped_df_mean['DD'].plot(figsize=(10, 7))
+
 
 
 def readtradebook():
