@@ -51,7 +51,7 @@ Cumulative Returns
 
 DrawDown
 
-![Alt text](/MACDInCredProject/images/DrawDown_Graph.PNG?raw=true "Optional Title")
+![Alt text](/MACDInCredProject/images/DrawDown_Graph.png?raw=true "Optional Title")
 
 Order Book 
 
