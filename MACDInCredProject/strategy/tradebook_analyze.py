@@ -82,11 +82,8 @@ def analyze_tradebook(tradebook):
     plt.ylabel('DrawDown Percentage')
     plt.plot(grouped_df_mean['DD'])
     plt.tight_layout()
-    plt.show()
     plt.savefig('../images/DrawDown_Graph.png')
-
-
-
+    plt.show()
 
 def readtradebook():
     tradebook =  pd.read_csv('result/tradebook.csv')

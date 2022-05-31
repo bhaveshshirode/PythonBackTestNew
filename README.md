@@ -1,65 +1,65 @@
 # MACD Back Testing Report
- BankNifty backtesting Stats
+## BankNifty backtesting Stats
 
-Backtesting Period : Dec - 2021 To May 2022
+Backtesting Period : Oct - 2021 To May - 2022
 
-Percentage Return Stats :
+> Percentage Return Stats :
 
-Total Pct Profit : 588.78 %
+- Total Pct Profit : 836.60 %
 
-Average Pct Trade Profit : 10.33 % 
+- Average Pct Trade Profit : 11.62 %
 
-Maximum Pct Profit : 215.53 % 
+- Maximum Pct Profit : 215.53 %
 
-Maximum Pct Loss : -92.53 % 
+- Maximum Pct Loss : -92.53 %
 
-Win Pct Percentage Trades :  0.37 %
+- Win Pct Percentage Trades :  0.40 %
 
-Loss Pct Percentage Trades :  0.63 %
+- Loss Pct Percentage Trades :  0.60 %
 
-Avg Pct Profit on Win Trade : 125.67 %
+- Avg Pct Profit on Win Trade : 113.01 %
 
-Avg Pct Loss on Loss Trade : -56.95 %
+- Avg Pct Loss on Loss Trade : -56.76 %
 
-No of Days SL hit Either Trailing or Combined SL : 47.00
+- No of Days SL hit Either Trailing or Combined SL : 62.00
 
-SL Hit Percentage :  0.82 %
+- SL Hit Percentage :  0.86 %
 
-Max Drawdown : -1.74 %
+- Max Drawdown : -0.85 %
 
-PnL Stats :
+> PnL Stats :
 
-Total Profit :    132747.50
+- Total Profit :    127787.50
 
-Average Trade Profit :      2328.90
+- Average Trade Profit :      1774.83
 
-Maximum Profit :     82712.50
+- Maximum Profit :     82712.50
 
-Maximum Loss :    -42060.00
+- Maximum Loss :    -42060.00
 
-Win Percentage Trades :         0.37
+- Win Percentage Trades :         0.40
 
-Loss Percentage Trades :         0.63
+- Loss Percentage Trades :         0.60
 
-Avg Profit on Win Trade :     23459.64
+- Avg Profit on Win Trade :     18097.50
 
-Avg Loss on Loss Trade :     -9997.36
+- Avg Loss on Loss Trade :     -9233.49
 
-Cumulative Returns
+> Cumulative Returns
 
 ![Alt text](/MACDInCredProject/images/Strategy_Graph.png?raw=true "Optional Title")
 
-DrawDown
+> DrawDown
 
 ![Alt text](/MACDInCredProject/images/DrawDown_Graph.png?raw=true "Optional Title")
 
-Order Book 
+> Order Book 
 
 https://github.com/bhaveshshirode/PythonBackTestNew/blob/main/MACDInCredProject/strategy/result/BANKNIFTYorderbook.csv
 
 ![Alt text](/MACDInCredProject/images/OrderBook.PNG?raw=true "Optional Title")
 
-TradeBook 
+> TradeBook 
 
 https://github.com/bhaveshshirode/PythonBackTestNew/blob/main/MACDInCredProject/strategy/result/tradebook.csv
 

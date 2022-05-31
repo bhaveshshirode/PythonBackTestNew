@@ -2,13 +2,15 @@ import pandas as pd
 import data
 import numpy as np
 import INDEX
+import DATAFILES
+from datetime import datetime
 
 class MACDIndicator:
 
-    BN_SPOT_CSV = '../data/BN_Spot_H_data'
-    NIFTY_SPOT_CSV = '../data/NIFTY_Spot_H_data'
+    BN_SPOT_CSV = DATAFILES.BN_SPOT_CSV
+    NIFTY_SPOT_CSV = DATAFILES.BN_SPOT_CSV
 
-    SPOT_CSV = '../data/BN_Spot_H_data' #deault pointing to BankNifty
+    SPOT_CSV = DATAFILES.BN_SPOT_CSV #deault pointing to BankNifty
 
     SPOT_DATA = []
     INDEX = INDEX.BANKNIFTY
@@ -23,6 +25,8 @@ class MACDIndicator:
     def createIndicator(self):
 
         self.SPOT_DATA =  pd.read_csv(self.SPOT_CSV)
+
+        self.SPOT_DATA.set_index(pd.to_datetime(self.SPOT_DATA['DateTime']), append=False, inplace=True, drop=False)
 
         self.SPOT_DATA['macd'] = self.SPOT_DATA['Close'].ewm(span=12).mean() - self.SPOT_DATA['Close'].ewm(span=26).mean()
         self.SPOT_DATA['signal'] = self.SPOT_DATA['macd'].ewm(span=9).mean()

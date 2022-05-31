@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from datetime import datetime
 import INDEX
+import DATAFILES
 #from data.dataExtraction import extractOptionsData
 pd.options.mode.chained_assignment = None
 
@@ -12,10 +13,10 @@ class StrategyBackTester:
     order_book = []
 
     index = INDEX.BANKNIFTY
-    BN_OPTIONS_CSV = '../data/BN_Options_H_data'
-    NIFTY_OPTIONS_CSV = '../data/NIFTY_Options_H_data'
+    BN_OPTIONS_CSV = DATAFILES.BN_OPTIONS_CSV
+    NIFTY_OPTIONS_CSV = DATAFILES.NIFTY_OPTIONS_CSV
 
-    OPTIONS_CSV = '../data/BN_Options_H_data'  # deault pointing to BankNifty
+    OPTIONS_CSV = DATAFILES.BN_OPTIONS_CSV  # deault pointing to BankNifty
 
     def __init__(self, index, order_book):
         self.order_book = order_book
