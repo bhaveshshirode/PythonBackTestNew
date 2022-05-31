@@ -1,4 +1,4 @@
-# PythonBackTest
+# MACD Back Testing Report
  PythonBacktesting Projects
 
 Backtesting Period : Dec - 2021 To May 2022
@@ -47,7 +47,7 @@ Avg Loss on Loss Trade :     -9997.36
 
 Cumulative Returns
 
-![Alt text](/MACDInCredProject/images/Strategy_Graph_Dec_2021_may_2022.png?raw=true "Optional Title")
+![Alt text](/MACDInCredProject/images/Strategy_Graph.png?raw=true "Optional Title")
 
 DrawDown
 
