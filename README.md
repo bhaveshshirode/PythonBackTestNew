@@ -25,7 +25,7 @@ No of Days SL hit Either Trailing or Combined SL : 47.00
 
 SL Hit Percentage :  0.82 %
 
-Max Drawdown : -1.74
+Max Drawdown : -1.74 %
 
 PnL Stats :
 
@@ -47,7 +47,7 @@ Avg Loss on Loss Trade :     -9997.36
 
 Cumulative Returns
 
-![Alt text](/MACDInCredProject/images/Strategy_Graph_Dec_2021_may_2022.png?raw=true "Optional Title")
+![Alt text](/MACDInCredProject/images/Strategy_Graph.png?raw=true "Optional Title")
 
 DrawDown
 

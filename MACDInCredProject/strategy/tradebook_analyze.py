@@ -50,7 +50,7 @@ def analyze_tradebook(tradebook):
     print('No of Days SL hit Either Trailing or Combined SL : %5.2f' % sl_hit)
 
     print('SL Hit Percentage : %5.2f' % sl_hit_pct,'%')
-    print('Max Drawdown : %5.2f' % max_dd)
+    print('Max Drawdown : %5.2f' % max_dd ,'%')
 
 
 
@@ -73,10 +73,18 @@ def analyze_tradebook(tradebook):
     plt.ylabel('Percentage Returns')
     plt.plot(grouped_df_mean['Percent Change'].cumsum())
     plt.tight_layout()
-    plt.show()
+    plt.savefig('../images/Strategy_Graph.png')
 
     plt2 = plt.figure(figsize=(10, 7))
-    grouped_df_mean['DD'].plot(figsize=(10, 7))
+    plt.title('Draw Down')
+    plt.xlabel('Time From {} To {}'.format( grouped_df_mean['Entry Time'].min(),grouped_df_mean['Entry Time'].max()) )
+    plt.xticks(range(0, len(grouped_df_mean['Entry Time'])), pd.DatetimeIndex(grouped_df_mean['Entry Time']).month)
+    plt.ylabel('DrawDown Percentage')
+    plt.plot(grouped_df_mean['DD'])
+    plt.tight_layout()
+    plt.show()
+    plt.savefig('../images/DrawDown_Graph.png')
+
 
 
 
@@ -84,4 +92,4 @@ def readtradebook():
     tradebook =  pd.read_csv('result/tradebook.csv')
     analyze_tradebook(tradebook)
 
-#readtradebook()
+readtradebook()
