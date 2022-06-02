@@ -47,23 +47,23 @@ Backtesting Period : Oct - 2021 To May - 2022
 
 > Cumulative Returns
 
-![Alt text](/MACDInCredProject/images/Strategy_Graph.png?raw=true "Optional Title")
+![Alt text](/MACDProject/images/Strategy_Graph.png?raw=true "Optional Title")
 
 > DrawDown
 
-![Alt text](/MACDInCredProject/images/DrawDown_Graph.png?raw=true "Optional Title")
+![Alt text](/MACDProject/images/DrawDown_Graph.png?raw=true "Optional Title")
 
 > Order Book 
 
-https://github.com/bhaveshshirode/PythonBackTestNew/blob/main/MACDInCredProject/strategy/result/BANKNIFTYorderbook.csv
+https://github.com/bhaveshshirode/PythonBackTestNew/blob/main/MACDProject/strategy/result/BANKNIFTYorderbook.csv
 
-![Alt text](/MACDInCredProject/images/OrderBook.PNG?raw=true "Optional Title")
+![Alt text](/MACDProject/images/OrderBook.PNG?raw=true "Optional Title")
 
 > TradeBook 
 
-https://github.com/bhaveshshirode/PythonBackTestNew/blob/main/MACDInCredProject/strategy/result/tradebook.csv
+https://github.com/bhaveshshirode/PythonBackTestNew/blob/main/MACDProject/strategy/result/tradebook.csv
 
-![Alt text](/MACDInCredProject/images/Tradebook.PNG?raw=true "Optional Title")
+![Alt text](/MACDProject/images/Tradebook.PNG?raw=true "Optional Title")
 
 
 
