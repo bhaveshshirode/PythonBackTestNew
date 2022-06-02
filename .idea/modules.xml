@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/MACDInCredProject.iml" filepath="$PROJECT_DIR$/.idea/MACDInCredProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PythonBackTest.iml" filepath="$PROJECT_DIR$/.idea/PythonBackTest.iml" />
     </modules>
   </component>
 </project>
